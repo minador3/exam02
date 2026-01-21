@@ -28,3 +28,10 @@ char	*ft_strdup(char *src)
 	dup[i] = '\0';
 	return (dup);
 }
+
+// get the length of the str
+// dup = malloc 
+// while str[1]
+// dup[i] = str[i]
+// dup[i]= '\0'
+// ret dup

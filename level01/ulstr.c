@@ -22,3 +22,6 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
+
+// lower to upper -=32
+// upper to lower +=32

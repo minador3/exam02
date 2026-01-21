@@ -29,3 +29,8 @@ int	main(int ac, char **av)
 		printf("\n");
 	return (0);
 }
+
+// ac == 4 ELSE print newline char
+// atoi(av[1]), atoi(av[3])
+// op = av[2][0]
+// if +, else if -, else if *, else if /, else if %

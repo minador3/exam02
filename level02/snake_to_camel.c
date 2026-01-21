@@ -9,9 +9,9 @@ int	main(int ac, char **av)
 	i = 0;
 	if (ac == 2)
 	{
-		while (av[1][i])
+		while (av[1][i]) // loop through av[1][i]
 		{
-			if (av[1][i] == '_')
+			if (av[1][i] == '_') 
 			{
 				i++;
 				c = av[1][i];
@@ -32,3 +32,12 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
+
+// snake to camel 
+// loop through av[1][i]
+// if av[1][i] == '_", 
+// i++, 
+// if av[1][i] is lower case 
+// av[1][i] -= 32; write &c, i++
+// else write &av[1][i], i++;
+// write newline 

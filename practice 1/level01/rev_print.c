@@ -20,7 +20,3 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
-
-// goes to the end of str
-// decrement last = i - 1
-// print

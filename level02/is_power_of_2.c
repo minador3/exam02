@@ -10,3 +10,10 @@ int	is_power_of_2(unsigned int n)
 	}
 	return (1);
 }
+
+// if n == 0 ret 0;
+// while n > 1
+// if (n % 2 == 0)
+// ret 0;
+// n /= 2;
+// ret 1

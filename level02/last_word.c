@@ -38,3 +38,10 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
+//go to the end of av[1][i], i++;
+//i--;
+//skip space or tabs backwards from the end (i>=0, av[1][i] == ' ' || '\t')
+//i--;
+//end = i; this is the end of the word 
+//move backwards until we hit space AND tab or start of the str (while i>=0 && av[1][i] != ' ' && '\t' )
+// 

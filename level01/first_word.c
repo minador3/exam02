@@ -18,3 +18,6 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
+
+// while == ' ' || == '/t', i++; skip the space OR tabs
+// while av[1][i] && != ' ' && != '/t', before reaching the end of code, and doesnt equal to space AND tabs

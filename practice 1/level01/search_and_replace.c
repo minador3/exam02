@@ -28,8 +28,3 @@ int	main(int ac, char **av)
 	write(1, "\n", 1);
 	return (0);
 }
-
-// check ac == 4
-// check av2 and av3 only have 1 character: av[2][1] != '\0' OR av[3][1] != '\0'
-// if av[1][i] == search --> write &replace 
-// else  --> write &av[1][i]

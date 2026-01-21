@@ -15,3 +15,12 @@ int	max(int *tab, unsigned int len)
 	}
 	return (max_value);
 }
+
+// unsigned int i;
+// int max_value
+// if len == 0, ret 0;
+// i = 1;
+// while (i < len)
+// if tab[i] > max_value, -> max_value = tab[i]
+// i++;
+// ret maxv

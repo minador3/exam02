@@ -6,16 +6,18 @@ size_t	ft_strcspn(const char *s, const char *reject)
 	size_t	j;
 
 	i = 0;
-	while (s[i])
+	while (s[i]) //loop through the main str
 	{
 		j = 0;
-		while (reject[j])
+		while (reject[j]) //check if the current s[i] exists in reject
 		{
 			if (s[i] == reject[j])
-				return (i);
+				return (i); // found a reject char, ret the count
 			j++;
 		}
 		i++;
 	}
 	return (i);
 }
+
+// the first char FOUND in the set 

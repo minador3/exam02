@@ -9,7 +9,7 @@ char	*ft_strrev(char *str)
 		i++;
 	last = i - 1;
 	i = 0;
-	while (last > i)
+	while (i < last)
 	{
 		temp = str[i];
 		str[i] = str[last];
@@ -19,3 +19,10 @@ char	*ft_strrev(char *str)
 	}
 	return (str);
 }
+
+// len of str
+// last = len - 1
+// len = 0
+// while last > len
+// temp = str[len], len = last, last = temp, len++, last--;
+// ret str
